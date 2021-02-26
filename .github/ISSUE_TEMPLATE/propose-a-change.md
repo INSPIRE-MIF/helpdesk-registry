@@ -7,9 +7,6 @@ assignees: ''
 
 ---
 
-**Change proposals impacting the content of the INSPIRE Registry can only be submitted by the [official Submitting Organisations](../../submitting-organisations-list.md)**.
-If you are not a Submitting Organisation and you would like to propose a change, please approach  the  recognised  [Submitting Organisation from your country](../../submitting-organisations-list.md)
-
 Please replace these lines with a brief summary of your change proposal. 
 Remember to specify all the required information in order to facilitate the correct evaluation and eventual implementation of the proposed changes.
 **Detailed guidelines** and **examples** proposals are available [here](../../change-proposal-guidelines.md).
