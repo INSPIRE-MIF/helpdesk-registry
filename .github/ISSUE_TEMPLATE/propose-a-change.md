@@ -1,7 +1,6 @@
 ---
 name: Propose a change impacting the content of the INSPIRE registry
-about: Propose a change to the content of the INSPIRE registry (e.g. addition of a reference code to a register, change to a reference code).
-	Change proposals impacting the content of the INSPIRE Registry can only be submitted by the [official Submitting Organisations](../../submitting-organisations-list.md).
+about: Propose a change to the content of the INSPIRE registry (e.g. addition of a reference code to a register, change to a reference code). Change proposals impacting the content of the INSPIRE Registry can only be submitted by the [official Submitting Organisations](../../submitting-organisations-list.md).
 title: ''
 labels: 'content change proposal'
 assignees: ''
