@@ -8,8 +8,10 @@ assignees: ''
 ---
 
 Please replace these lines with a brief summary of your change proposal. 
+Please remember that this issue template is reserved only to the appointed [Submitting Organisations](https://github.com/INSPIRE-MIF/helpdesk-registry/blob/main/submitting-organisations-list.md).
+
 Remember to specify all the required information in order to facilitate the correct evaluation and eventual implementation of the proposed changes.
-**Detailed guidelines** and **examples** proposals are available [here](../../change-proposal-guidelines.md).
+**Detailed guidelines** and **examples** proposals are available [here](https://github.com/INSPIRE-MIF/helpdesk-registry/blob/main/change-proposal-guidelines.md).
 
 - the URI of the register/reference code
 - the rationale or motivation behind this proposal
