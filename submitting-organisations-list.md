@@ -33,3 +33,4 @@ Additional members can be [proposed here](https://github.com/INSPIRE-MIF/helpdes
 |FI|National Land Survey of Finland|Teijo Kalliomäki|teijo.kalliomaki@nls.fi|
 |SI|SURVEYING AND MAPPING AUTHORITY OF THE REPUBLIC OF SLOVENIA|UROŠ MLADENOVI?|uros.mladenovic@gov.si|
 |LV|Latvian Geospatial Information Agency|Valdis Berzins|valdis.berzins@lgia.gov.lv|
+|EC-JRC|European Commission, Joint Research Centre (JRC)|Andrea Perego|andrea.perego@ext.ec.europa.eu|
