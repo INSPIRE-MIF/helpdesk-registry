@@ -1,7 +1,7 @@
 ## INSPIRE registry helpdesk
 
 This space is meant to discuss and propose changes to the content and the service of the [INSPIRE registry](https://inspire.ec.europa.eu/registry).
-
+Please follow our [Code of Conduct](https://github.com/INSPIRE-MIF/helpdesk/blob/main/code-of-conduct.md) anytime when you interact with the INSPIRE community in this space.
 Please familiarise yourself with the governance process that is described below before opening new issues.
 
 ### Before posting an issue
