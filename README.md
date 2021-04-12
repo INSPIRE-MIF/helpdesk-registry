@@ -21,7 +21,7 @@ For more information on the change proposal process and duties of Submitting Org
 
 
 #### Propose a change of the content
-[Propose a change related to the INSPIRE registry content](https://github.com/INSPIRE-MIF/helpdesk-registry/issues/new?assignees=&labels=&template=propose-a-change.md&title=) (reserved only to the appointed [Submitting Organisations](submitting-organisations-list.md)).
+[Propose a change related to the INSPIRE registry content](https://github.com/INSPIRE-MIF/helpdesk-registry/issues/new?assignees=&labels=&template=propose-a-change.md&title=) (**reserved only to the appointed [Submitting Organisations](submitting-organisations-list.md)**).
 
 #### Report an issue or ask a question not impacting the content
 
