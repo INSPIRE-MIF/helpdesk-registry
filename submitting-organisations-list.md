@@ -8,7 +8,7 @@ Additional members can be [proposed here](https://github.com/INSPIRE-MIF/helpdes
 |AT|Umweltbundesamt (Environment Agency Austria) |Christine Brendle|christine.brendle@umweltbundesamt.at|
 |BE|Belgian INSPIRE Coordination Comite|Ouns Kissiyar|ouns.kissiyar@kb.Vlaanderen.be|
 |CY|Department of Lands and Surveys|Mr Andreas Hadjiraftis|ahadjiraftis@dls.moi.gov.cy|
-|CZ|"CENIA| Czech Environmental Information Agency"|Lenka Rejentová|lenka.rejentova@cenia.cz
+|CZ|CENIA Czech Environmental Information Agency|Lenka Rejentová|lenka.rejentova@cenia.cz
 |DE|Coordination Office SDI Germany|Andreas von Dömming|contact-eu-registry@bkg.bund.de|
 |DE|Coordination Office SDI Germany|Sebastian Kauk|contact-eu-registry@bkg.bund.de|
 |DK|Agency for Data Supply and Efficiency|Lars Erik Storgaard|laers@sdfe.dk|
@@ -16,7 +16,7 @@ Additional members can be [proposed here](https://github.com/INSPIRE-MIF/helpdes
 |EL|Ministry for Environment and Energy|Eleni Grigoriou|el.grigoriou@prv.ypeka.gr|
 |ES|National Centre for Geographic Information|Alejandra Sánchez Maganto|asmaganto@fomento.es|
 |FI|National Land Survey of Finland|Teijo Kalliomäki|teijo.kalliomaki@nls.fi|
-|FR|"Ministère de l'environnement| de l'énergie et de la mer"|Etienne Taffoureau|e.taffoureau@brgm.fr|
+|FR|Ministère de l'environnement de l'énergie et de la mer|Etienne Taffoureau|e.taffoureau@brgm.fr|
 |HR|State Geodetic Administration|Tanja Rodin|tanja.rodin@dgu.hr|
 |HU|BFKH FTFF (Government Office of the Capital City Budapest Department of Geodesy Remote Sensing and Land Offices)|Otto Tancsik|tancsik.otto@bfkh.gov.hu|
 |IT|AgID (Agenzia per l'Italia Digitale) |Antonio Rotundo|antonio.rotundo@agid.gov.it|
