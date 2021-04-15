@@ -15,7 +15,7 @@ Please familiarise yourself with the governance process that is described below 
 - Represent a Submitting Organisation, please take a look at the [Guidelines for change proposals](change-proposal-guidelines.md)
 - Want to update or submit a nomination for either a Submitting Organisation, or Control Body, please use the specific issue template, listed below.
 
-For more information on the change proposal process and duties of Submitting Organisations  and the  Control  Body, please refer to the [Central INSPIRE registry and INSPIRE register federation – Terms of Reference for the Control Body and Submitting Organisations](http://inspire.ec.europa.eu/id/document/tor/registry-control-body-and-submittingorganisations/1.0) document.
+For more information on the change proposal process and duties of Submitting Organisations  and the  Control  Body, please refer to the [INSPIRE registry – Terms of Reference for the Control Body and Submitting Organisations](https://github.com/INSPIRE-MIF/helpdesk-registry/blob/main/registry-control-body-and-submitting-organisations.md) document.
 
 ### How to submit an issue
 
