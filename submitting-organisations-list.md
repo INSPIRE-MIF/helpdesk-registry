@@ -23,7 +23,7 @@ Additional members can be [proposed here](https://github.com/INSPIRE-MIF/helpdes
 |IT|AgID (Agenzia per l'Italia Digitale) |Gabriele Ciasullo|ciasullo@agid.gov.it|
 |LV|Latvian Geospatial Information Agency|Valdis Berzins|valdis.berzins@lgia.gov.lv|
 |MT|MALTA INFORMATION TECHNOLOGY AGENCY (MITA)|Marica Xuereb|marica.xuereb@gov.mt|
-|NL|Geonovum|Linda van den Brink|l.vandenbrink@geonovum.nl|
+|NL|Geonovum|Ine de Visser|i.devisser@geonovum.nl|
 |NO|NORWEGIAN MAPPING AUTHORITY|Lars Inge Arnevik|Lars-Inge.Arnevik@kartverket.no|
 |PL|G?ówny Urz?d Geodezji i Kartografii (GUGiK) (Head Office of Geodesy and Cartography)|Micha? Fija?kowski|michal.fijalkowski@codgik.gov.pl|
 |RO|National Agency for Cadastre and Land Registration (ANCPI)|Simona Daniela Bunea|simona.bunea@ancpi.ro|
