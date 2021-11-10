@@ -33,7 +33,7 @@ For more information on the change proposal process and duties of Submitting Org
 
 #### Nomination of Submitting Organisation  and  Control Body members
 -   Submitting Organisations can be nominated using [this issue template](https://github.com/INSPIRE-MIF/helpdesk-registry/issues/new?assignees=&labels=&template=nominate-submitting-organisation.md&title=); **Note**:  only one organisation can be nominated per country. The representative can be a MIG-T member, or another nominated expert), JRC, EEA and DG ENV. More info available [here](http://inspire.ec.europa.eu/id/document/tor/registry-control-body-and-submittingorganisations/1.0).
--   Members for the Control Body can be proposed using [this issue template](https://github.com/INSPIRE-MIF/helpdesk-registry/issues/new?assignees=&labels=&template=nominate-control-body.md&title=). **Note**: Control Body is made of a small group of nominated register experts. More info available [here](http://inspire.ec.europa.eu/id/document/tor/registry-control-body-and-submittingorganisations/1.0).
+-   Members for the [Control Body](control-body-list.md) can be proposed using [this issue template](https://github.com/INSPIRE-MIF/helpdesk-registry/issues/new?assignees=&labels=&template=nominate-control-body.md&title=). **Note**: Control Body is made of a small group of nominated register experts. More info available [here](http://inspire.ec.europa.eu/id/document/tor/registry-control-body-and-submittingorganisations/1.0).
 
 ### Check current and past issues
 
