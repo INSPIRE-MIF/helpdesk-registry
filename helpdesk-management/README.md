@@ -22,7 +22,7 @@ To be able to know the status of each issue reported in the helpdesk (from the i
   - input required: The control body is requesting additional information on the change request
   - change approved: The change request has been approved by the control body
   - change declined: The change request has been declined by the control body.
-  - Requires change in TG: Finally, when the change, approved by the Control body, affects the technical guideline, the issue will be labelled in order to be taken into account in the technical-guidelines helpdesk.
+- Requires change in TG: Finally, when the change, approved by the Control body, affects the technical guideline, the issue will be labelled in order to be taken into account in the technical-guidelines helpdesk.
 
 The diagram below shows the full helpdesk management cycle for each issue, from the initial stage when it is opened to the final stage when it is closed.  Also includes and identifies the actions of the INSPIRE Registry team.
 
