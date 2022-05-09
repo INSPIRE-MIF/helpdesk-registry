@@ -13,7 +13,6 @@ The helpdesk management workflow defines the actions performed by the INSPIRE Re
 To be able to know the status of each issue reported in the helpdesk (from the initial assessment to the final implementation of a solution for it), a number of labels are used. These are listed on [this page](https://github.com/INSPIRE-MIF/helpdesk-registry/issues/labels) and are described in more detail below in the chronological order in which they are used while managing each Registry issue:
 
 - **_under analysis_**: This label is assigned after the issue has been opened, and indicates that the INSPIRE Registry Team is performing a first analysis to figure out what is the problem and how to address it; in case this requires further information from the user, the INSPIRE Registry Team asks the user to provide it in the issue discussion.
-
 - **_question_**: In case the issue requires further information from the user, the INSPIRE Registry Team asks the user to provide it in the issue.
 - **_discussion/under development_**: In case the initial analysis reveals that a change in the INSPIRE Registry is needed, this label is assigned to the issue to indicate that the INSPIRE Registry team is developing a solution for the problem reported.
 - **_change proposal_**: This label is assigned to the issue, in case the initial analysis reveals that is a change proposal for the registry, then the issue is under a deeper analysis to see the impact on the registry and whether it is a proposal made by a Submitting organization or not.
