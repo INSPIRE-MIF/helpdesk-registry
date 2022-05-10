@@ -26,16 +26,14 @@ To be able to know the status of each issue reported in the helpdesk (from the i
 The diagram below shows the full helpdesk management cycle for each issue, from the initial stage when it is opened to the final stage when it is closed.  Also includes and identifies the actions of the INSPIRE Registry team.
 
 ```mermaid
+%%{init: {"themeVariables": {"fontSize": "14px" }}}%%
 flowchart TD
 
- 
     %% RELATIONS
     newIssue -->  labelUnderAnalysis -->  analyze -->
-    rhombusMoreInfo -- NO  -->  rhombusIsAnIssue -- YES --> ChangesInDB -- NO --> labelDiscussionDevelopment
+    rhombusMoreInfo -- NO  --->  rhombusIsAnIssue -- YES --> ChangesInDB -- NO --> labelDiscussionDevelopment
     rhombusMoreInfo -- YES -->  labelQuestion --> analyze
 
-   
-   
     ChangesInDB -- YES --> labelDiscussionProposal
     labelDiscussionProposal --> rhombusControlBody 
        
@@ -47,9 +45,6 @@ flowchart TD
     resolveIssue --> labelSolved
     labelSolved --> giveFeedBack
     
-
-  
-
     implementChanges --> rhombusChangeAccepted
     rhombusChangeAccepted -- YES --> labelChangeApproved
     rhombusChangeAccepted -- NO --> NeedMoreInfo
@@ -70,12 +65,12 @@ flowchart TD
 
     giveFeedBack ----> closeIssue
 
-   
-     %% NEW ISSUE [NODE]
+    %% NEW ISSUE [NODE]
     newIssue("New issue")
 
-   %% SET LABEL UNDER ANALYSIS [NODE]
+    %% SET LABEL UNDER ANALYSIS [NODE]
     labelUnderAnalysis("Set label under analysis")
+    style labelUnderAnalysis stroke-width:4px, stroke: #006b75
 
     %% ANALYZE [NODE]
     analyze("Analyze")
@@ -85,21 +80,25 @@ flowchart TD
 
     %% SET LABEL QUESTION [NODE]
     labelQuestion("Set label question")
+    style labelQuestion stroke-width:4px, stroke: #d876e3
 
     %% IS AN ISSUE IN INSPIRE REGISTRY HELPDESK? [RHOMBUS]
     rhombusIsAnIssue{"Is an issue in \n INSPIRE Registry \n Helpdesk?"}
 
     %% SET LABEL DISCUSSION (DRAFT) UNDER DEV [NODE]
     labelDiscussionDevelopment("Set label discussion (DRAFT) \n under development")
+    style labelDiscussionDevelopment stroke-width:4px, stroke: #ed7d31
 
     %% SET LABEL DISCUSSION (DRAFT) UNDER PROP [NODE]
     labelDiscussionProposal("Set label discussion (DRAFT) \n change proposal")
+    style labelDiscussionProposal stroke-width:4px, stroke: #c2e0c6
 
     %% CONTROL BODY APPROVAL IS NEEDED ? [RHOMBUS]
     rhombusControlBody{"CONTROL BODY \n approval is needed?"}
 
     %% SET LABEL UNDER SCRUTINY (SUBMITTED-VALID) [NODE]
-    labelUnderScrut("Set label under scrutiny \n (SBUMITTED-VALID)")
+    labelUnderScrut("Set label under scrutiny \n (SUBMITTED-VALID)")
+    style labelUnderScrut stroke-width:4px, stroke: #fbca04
 
     %% IMPLEMENT THE CHANGES / ACCEPT... [NODE]
     implementChanges("Implement the changes / accept \n actions by control body. \n Give feedback in the issue \n about the status of the process")
@@ -109,18 +108,22 @@ flowchart TD
 
     %% SET LABEL INPUT REQUIRED [NODE]
     labelInputRequired("Set label input required")
+    style labelInputRequired stroke-width:4px, stroke: #f9d0c4
 
     %% SET LABEL CHANGE APPROVED [NODE]
     labelChangeApproved("Set label change approved")
+    style labelChangeApproved stroke-width:4px, stroke: #0e8a16
 
     %% REQUIRES CHANGE IN THE TG? [RHOMBUS]
     rhombusRequiresChange{"Requires change \n in the TG?"}
 
     %% SET LABEL CHANGE DECLINED
     labelChangeDeclined("Set label change declined")
+    style labelChangeDeclined stroke-width:4px, stroke: #b60205
 
     %% SET LABEL REQUIRES CHANGES IN TG
     labelRequiresChanges("Set label requires changes in TG")
+    style labelRequiresChanges stroke-width:4px, stroke: #d97e5c
 
     %% GIVE FEEDBACK TO THE USER
     giveFeedBack("Give feedback to the user")
@@ -133,11 +136,14 @@ flowchart TD
 
     %% SET LABEL SOLVED
     labelSolved("Set label solved")
+    style labelSolved stroke-width:4px, stroke: #8ef984
 
     %% TRANSFER THE ISSUE TO THE CORRECT REPOSITORY
     transferIssue("Transfer the issue to the correct repository")
 
-  NeedMoreInfo("Is more info needed?")
+    %% IS MORE INFO NEEDED?
+    NeedMoreInfo("Is more info needed?")
 
-  ChangesInDB("Issue related to changes in a item")
+    %% ISSUE RELATED TO CHANGES IN A ITEM
+    ChangesInDB("Issue related to changes in a item")
 ```
