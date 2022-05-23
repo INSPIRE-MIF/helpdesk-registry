@@ -12,18 +12,28 @@ The helpdesk management workflow defines the actions performed by the INSPIRE Re
 
 To be able to know the status of each issue reported in the helpdesk (from the initial assessment to the final implementation of a solution for it), a number of labels are used. These are listed on [this page](https://github.com/INSPIRE-MIF/helpdesk-registry/issues/labels) and are described in more detail below in the chronological order in which they are used while managing each Registry issue:
 
-- **_under analysis_**: This label is assigned after the issue has been opened, and indicates that the INSPIRE Registry Team is performing a first analysis to figure out what is the problem and how to address it; in case this requires further information from the user, the INSPIRE Registry Team asks the user to provide it in the issue discussion.
-- **_question_**: In case the issue requires further information from the user, the INSPIRE Registry Team asks the user to provide it in the issue.
-- **_discussion/under development_**: In case the initial analysis reveals that a change in the INSPIRE Registry is needed, this label is assigned to the issue to indicate that the INSPIRE Registry team is developing a solution for the problem reported.
-- **_change proposal_**: This label is assigned to the issue, in case the initial analysis reveals that is a change proposal for the registry, then the issue is under a deeper analysis to see the impact on the registry and whether it is a proposal made by a Submitting organization or not.
-- **_solved_**: If the change proposal does not need the Control body's approval, the INSPIRE Registry Team will proceed to implement the proposal and will label the issue as solved.
-- **_under scrutiny_**: This label is assigned to the issue, to indicate that the change proposal is under the implementation of the changes and accepts actions by the Control body. During this process, INSPIRE Registry Team will give feedback on the status of the proposal to the user. Once the control body has communicated its decision, the issue can be labelled under one of these 3 labels:
-  - **_input required_**: The control body is requesting additional information on the change request
-  - **_change approved_**: The change request has been approved by the control body
-  - **_change declined_**: The change request has been declined by the control body.
-- **_requires change in TG_**: Finally, when the change, approved by the Control body, affects the technical guideline, the issue will be labelled in order to be taken into account in the technical-guidelines helpdesk.
+- **_under analysis_**: This label is assigned after the issue has been opened, and indicates that the INSPIRE Registry Team is performing an initial analysis to figure out what the nature of the problem is, and how to address it. **This process may end up with a direct rejection of the issue - ADD THIS TO THE WORKFLOW GRAPHIC**.
+- **_further info required_**: In case the issue requires further information from the user, the INSPIRE Registry Team asks the user to provide it in the issue thread.
+- **_change proposal_**: This label is assigned to the issue in case the initial analysis reveals that it corresponds to a change proposal regarded to the content of the INSPIRE Registry. After having classified the issue with this label, a deeper analysis is started to evaluate whether it is a proposal deriving from a Submitting Organization or not, and its expected impact on the INSPIRE Registry.
+- **_miscellaneous proposal_**: In case the initial analysis reveals that the issue does NOT correspond to a change proposal regarded to the content of the INSPIRE Registry, but to another type of proposal, this label is assigned to the issue. As illustration, the proposal might be regarded to an problem, a question or a proposal related to the the INSPIRE Registry tool/application. **In these cases the INSPIRE Registry team shall analyse the nature of the issue, as well as formulate/develop a proper answer and/or solution to the issue reported - ADD THIS TO THE WORKFLOW GRAPHIC.**
+- **_under development_**: **In the previous case, when an ad-hoc solution needs to be developed, this label is assigned to the issue to indicate that the INSPIRE Registry team is developing a solution for the problem reported - REFORMULATE THIS INTO THE WORKFLOW GRAPHIC.**
+- **_ACCEPTED FIX_**: If the change proposal is a correction directly implementable and does not require the Control Body's approval, for example in case of obvious typos, the INSPIRE Registry team will proceed to implement the proposal and will label the issue as an accepted correction.
+- **_UNDER SCRUTINY_**: This label is assigned to the issue to indicate that the change proposal has been submitted for the evaluation of the Control Body using the established formal procedure. Throughout this process, the INSPIRE Registry team provides feedback to the user on the status of the proposal. Once the Control Body has ruled a final decision on it, the issue is labelled using one of these 4 labels:
+  - **_input required_**: The control body is requesting additional information to the change requester.
+  - **_APPROVED_**: The change request has been accepted and approved by the Control Body.
+  - **_APPROVED WITH CHANGES_**: The change request has been accepted and approved  by the Control Body, with some changes with respect the original porposal.
+  - **_REJECTED_**: The change request has NOT been accepted by the Control Body.
+- **_impact on TG_**: Finally, when the change approved by the Control body affects the any technical guidelines, the issue is labelled in order to properly identify and address it within the technical-guidelines helpdesk.
 
-The diagram below shows the full helpdesk management cycle for each issue, from the initial stage when it is opened to the final stage when it is closed.  Also includes and identifies the actions of the INSPIRE Registry team.
+The diagram below shows the full helpdesk management cycle for each issue, from the initial stage when it is opened to the final stage when it is closed. It additionally includes and identifies the actions of the INSPIRE Registry team.
+
+**THE "Issue related to changes in a item" ITEM SHALL BE TRANSFORMED INTO A DECISION POINT (RHOMBUS) IN THE WORKFLOW GRAPHIC.**
+
+**THE "Is more info needed?" ITEM SHALL BE TRANSFORMED INTO A DECISION POINT (RHOMBUS) IN THE WORKFLOW GRAPHIC.**
+
+**THE WORKFLOW GRAPHIC IS LAKING THE OPTION OF ACCEPT A PROPOSAL WITH CHANGES (LABEL TO BE USED: 'APPROVED WITH CHANGES') - INTEGRATE THIS IN THE GRAPHIC.**
+
+**THE WORKFLOW AFTER 'Set label 'input required' ITEM, REQUIRES INPUTS FROM THE USER AND/OR THE INSPIRE REGISTRY TEAM - INTEGRATE THIS IN THE GRAPHIC.**
 
 ```mermaid
 %%{init: {"themeVariables": {"fontSize": "14px" }}}%%
@@ -69,7 +79,7 @@ flowchart TD
     newIssue("New issue")
 
     %% SET LABEL UNDER ANALYSIS [NODE]
-    labelUnderAnalysis("Set label under analysis")
+    labelUnderAnalysis("Set label 'under analysis'")
     style labelUnderAnalysis stroke-width:4px, stroke: #006b75
 
     %% ANALYZE [NODE]
@@ -79,25 +89,25 @@ flowchart TD
     rhombusMoreInfo{"More information \n is needed"}
 
     %% SET LABEL QUESTION [NODE]
-    labelQuestion("Set label question")
+    labelQuestion("Set label 'further info required'")
     style labelQuestion stroke-width:4px, stroke: #d876e3
 
     %% IS AN ISSUE IN INSPIRE REGISTRY HELPDESK? [RHOMBUS]
     rhombusIsAnIssue{"Is an issue in \n INSPIRE Registry \n Helpdesk?"}
 
     %% SET LABEL DISCUSSION (DRAFT) UNDER DEV [NODE]
-    labelDiscussionDevelopment("Set label discussion (DRAFT) \n under development")
+    labelDiscussionDevelopment("Set label 'miscellaneous proposal' \n + add workflow for 'under development'")
     style labelDiscussionDevelopment stroke-width:4px, stroke: #ed7d31
 
     %% SET LABEL DISCUSSION (DRAFT) UNDER PROP [NODE]
-    labelDiscussionProposal("Set label discussion (DRAFT) \n change proposal")
+    labelDiscussionProposal("Set label 'change proposal' \n Draft proposal \n Set label 'DRAFT'")
     style labelDiscussionProposal stroke-width:4px, stroke: #c2e0c6
 
     %% CONTROL BODY APPROVAL IS NEEDED ? [RHOMBUS]
     rhombusControlBody{"CONTROL BODY \n approval is needed?"}
 
     %% SET LABEL UNDER SCRUTINY (SUBMITTED-VALID) [NODE]
-    labelUnderScrut("Set label under scrutiny \n (SUBMITTED-VALID)")
+    labelUnderScrut("Proposal submitted to Control Body \n Set label 'UNDER SCRUTINY'")
     style labelUnderScrut stroke-width:4px, stroke: #fbca04
 
     %% IMPLEMENT THE CHANGES / ACCEPT... [NODE]
@@ -107,22 +117,22 @@ flowchart TD
     rhombusChangeAccepted{"The change \n is accepted?"}
 
     %% SET LABEL INPUT REQUIRED [NODE]
-    labelInputRequired("Set label input required")
+    labelInputRequired("Set label 'input required'")
     style labelInputRequired stroke-width:4px, stroke: #f9d0c4
 
     %% SET LABEL CHANGE APPROVED [NODE]
-    labelChangeApproved("Set label change approved")
+    labelChangeApproved("Proposal is accepted \n Implement change \n Set label 'APPROVED'")
     style labelChangeApproved stroke-width:4px, stroke: #0e8a16
 
     %% REQUIRES CHANGE IN THE TG? [RHOMBUS]
     rhombusRequiresChange{"Requires change \n in the TG?"}
 
     %% SET LABEL CHANGE DECLINED
-    labelChangeDeclined("Set label change declined")
+    labelChangeDeclined("Proposal is NOT accepted \n Set label 'REJECTED'")
     style labelChangeDeclined stroke-width:4px, stroke: #b60205
 
     %% SET LABEL REQUIRES CHANGES IN TG
-    labelRequiresChanges("Set label requires changes in TG")
+    labelRequiresChanges("Requires changes in TG \n Set label 'impact on TG'")
     style labelRequiresChanges stroke-width:4px, stroke: #d97e5c
 
     %% GIVE FEEDBACK TO THE USER
@@ -132,14 +142,14 @@ flowchart TD
     closeIssue("Close issue")
 
     %% RESOLVE ISSUE 
-    resolveIssue("Resolve issue")
+    resolveIssue("Implement change")
 
     %% SET LABEL SOLVED
-    labelSolved("Set label solved")
+    labelSolved("Fix is accepted \n Set label 'ACCEPTED FIX'")
     style labelSolved stroke-width:4px, stroke: #8ef984
 
     %% TRANSFER THE ISSUE TO THE CORRECT REPOSITORY
-    transferIssue("Transfer the issue to the correct repository")
+    transferIssue("Transfer the issue to the correct helpdesk repository")
 
     %% IS MORE INFO NEEDED?
     NeedMoreInfo("Is more info needed?")
