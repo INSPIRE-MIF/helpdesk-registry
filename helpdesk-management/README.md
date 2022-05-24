@@ -27,13 +27,6 @@ To be able to know the status of each issue reported in the helpdesk (from the i
 
 The diagram below shows the full helpdesk management cycle for each issue, from the initial stage when it is opened to the final stage when it is closed. It additionally includes and identifies the actions of the INSPIRE Registry team.
 
-**THE "Issue related to changes in a item" ITEM SHALL BE TRANSFORMED INTO A DECISION POINT (RHOMBUS) IN THE WORKFLOW GRAPHIC.**
-
-**THE "Is more info needed?" ITEM SHALL BE TRANSFORMED INTO A DECISION POINT (RHOMBUS) IN THE WORKFLOW GRAPHIC.**
-
-**THE WORKFLOW GRAPHIC IS LAKING THE OPTION OF ACCEPT A PROPOSAL WITH CHANGES (LABEL TO BE USED: 'APPROVED WITH CHANGES') - INTEGRATE THIS IN THE GRAPHIC.**
-
-**THE WORKFLOW AFTER 'Set label 'input required' ITEM, REQUIRES INPUTS FROM THE USER AND/OR THE INSPIRE REGISTRY TEAM - INTEGRATE THIS IN THE GRAPHIC.**
 
 ```mermaid
 %%{init: {"themeVariables": {"fontSize": "14px" }}}%%
@@ -41,10 +34,10 @@ flowchart TD
 
     %% RELATIONS
     newIssue -->  labelUnderAnalysis -->  analyze -->
-    rhombusMoreInfo -- NO  --->  rhombusIsAnIssue -- YES --> ChangesInDB -- NO --> labelDiscussionDevelopment
-    rhombusMoreInfo -- YES -->  labelQuestion --> analyze
+    rhombusMoreInfo -- NO  --->  rhombusIsAnIssue -- YES -->  rhombusChangesInDB -- NO --> labelDiscussionDevelopment
+    rhombusMoreInfo -- YES -->  labelQuestion --> labelQuestionsFor --> analyze
 
-    ChangesInDB -- YES --> labelDiscussionProposal
+    rhombusChangesInDB -- YES --> labelDiscussionProposal
     labelDiscussionProposal --> rhombusControlBody 
        
     rhombusControlBody -- YES --> labelUnderScrut
@@ -57,6 +50,7 @@ flowchart TD
     
     implementChanges --> rhombusChangeAccepted
     rhombusChangeAccepted -- YES --> labelChangeApproved
+    rhombusChangeAccepted -- YES WITH CHANGES --> labelChangeApprovedWithChanges
     rhombusChangeAccepted -- NO --> NeedMoreInfo
 
     NeedMoreInfo -- NO --> labelChangeDeclined
@@ -65,6 +59,7 @@ flowchart TD
 
     labelChangeDeclined --> giveFeedBack
     labelChangeApproved --> rhombusRequiresChange
+    labelChangeApprovedWithChanges --> rhombusRequiresChange
     labelDiscussionDevelopment --> rhombusRequiresChange
 
     rhombusRequiresChange -- YES --> labelRequiresChanges
@@ -124,6 +119,10 @@ flowchart TD
     labelChangeApproved("Proposal is accepted \n Implement change \n Set label 'APPROVED'")
     style labelChangeApproved stroke-width:4px, stroke: #0e8a16
 
+    %% SET LABEL CHANGE APPROVED WITH CHANGES [NODE]
+    labelChangeApprovedWithChanges("Proposal is accepted \n Implement change \n Set label 'APPROVED WITH CHANGES'")
+    style labelChangeApprovedWithChanges stroke-width:4px, stroke: #0e8a16
+
     %% REQUIRES CHANGE IN THE TG? [RHOMBUS]
     rhombusRequiresChange{"Requires change \n in the TG?"}
 
@@ -152,8 +151,11 @@ flowchart TD
     transferIssue("Transfer the issue to the correct helpdesk repository")
 
     %% IS MORE INFO NEEDED?
-    NeedMoreInfo("Is more info needed?")
+    NeedMoreInfo{"Is more info needed?"}
 
-    %% ISSUE RELATED TO CHANGES IN A ITEM
-    ChangesInDB("Issue related to changes in a item")
+    %% ISSUE RELATED TO CHANGES IN A ITEM [RHOMBUS]
+    rhombusChangesInDB{"Issue related to\nchanges in a item"}
+
+    %% QUESTIONS FOR
+    labelQuestionsFor("Requires input\n by users and/or the Inspire \nRegistry team")
 ```
