@@ -34,7 +34,7 @@ flowchart TD
 
     %% RELATIONS
     newIssue -->  labelUnderAnalysis -->  analyze -->
-    rhombusMoreInfo -- NO  --->  rhombusIsAnIssue -- YES -->  rhombusChangesInDB -- NO --> labelDiscussionDevelopment
+    rhombusMoreInfo -- NO  ---->  rhombusIsAnIssue -- YES -->  rhombusChangesInDB -- NO --> labelDiscussionDevelopment
     rhombusMoreInfo -- YES -->  labelQuestion --> labelQuestionsFor --> analyze
 
     rhombusChangesInDB -- YES --> labelDiscussionProposal
@@ -65,8 +65,11 @@ flowchart TD
     rhombusRequiresChange -- YES --> labelRequiresChanges
     labelRequiresChanges ----> giveFeedBack
     rhombusRequiresChange -- NO --> giveFeedBack
+  
+    rhombusIsAnIssue -- NO --> rhombusCouldBeTransfered
+    rhombusCouldBeTransfered -- NO --> giveFeedBack
+    rhombusCouldBeTransfered -- YES --> transferIssue
 
-    rhombusIsAnIssue -- NO --> transferIssue
 
     giveFeedBack ----> closeIssue
 
@@ -158,4 +161,6 @@ flowchart TD
 
     %% QUESTIONS FOR
     labelQuestionsFor("Requires input\n by users and/or the Inspire \nRegistry team")
+
+    rhombusCouldBeTransfered{"Could be transfered to\n an other repository?"}
 ```
