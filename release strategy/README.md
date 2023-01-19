@@ -36,7 +36,7 @@ To inform users in advance about when the solution to each issue will be include
 
 Milestones are listed on [this page](https://github.com/INSPIRE-MIF/helpdesk-registry/milestones). Once a new version of the INSPIRE Registry is released, the corresponding milestone is closed and moved to the list of closed milestones.
 
-The milestone ends about a month before its corresponding release to allow time for the **control body** to reach a decision.
+The milestone ends about one month before the corresponding release, during this time the **Control Body** will deliver and reach a decision on the change proposals.
 
 Schedule of next releases of the INSPIRE Registry. 
 
