@@ -29,7 +29,6 @@ No release is proposed on the end of the year, to avoid undesired interferences 
 As mentioned above, several releases of the Re3gistry software are scheduled each year.
 
 To inform users in advance about when the solution to each issue will be included in the release of the INSPIRE Registry, each issue and change proposal is assigned to a specific milestone.
-The milestone ends about a month before its corresponding release to allow time for the control body to reach a decision.
 
 - Milestone 202x.01 16/07-15/01 
 - Milestone 202x.02 16/01-15/04
@@ -37,11 +36,19 @@ The milestone ends about a month before its corresponding release to allow time 
 
 Milestones are listed on [this page](https://github.com/INSPIRE-MIF/helpdesk-registry/milestones). Once a new version of the INSPIRE Registry is released, the corresponding milestone is closed and moved to the list of closed milestones.
 
+The milestone ends about a month before its corresponding release to allow time for the **control body** to reach a decision.
+
 Schedule of next releases of the INSPIRE Registry. 
 
-- First annual release 202x.02 (February).
-- Second annual release 202x.05 (May).
-- Last annual release 202x.08 (August).
+- First annual release 202x.01 (February).
+- Second annual release 202x.02 (May).
+- Last annual release 202x.03 (August).
+
+INSPIRE Registry annual releases, **plan for 2023**:
+
+- First annual release 2023.01 - 15/02/2023
+- Second annual release 2023.02 - 15/05/2023
+- Last annual release 2023.03 - 15/08/2023
 
 ## Release Delivery
 
