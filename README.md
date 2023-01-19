@@ -4,6 +4,8 @@ This space is meant to discuss and propose changes to the content and the servic
 Please follow our [Code of Conduct](https://github.com/INSPIRE-MIF/helpdesk/blob/main/code-of-conduct.md) anytime when you interact with the INSPIRE community in this space.
 Please familiarise yourself with the governance process that is described below before opening new issues.
 
+You can check the the [release planning strategy](https://github.com/INSPIRE-MIF/helpdesk-registry/tree/main/release%20strategy) for the plan of future releases of the INSPIRE Registry.
+
 ### Before posting an issue
 
 #### Out of scope issues
@@ -19,23 +21,22 @@ For more information on the change proposal process and duties of Submitting Org
 
 ### How to submit an issue
 
-
-#### Propose a change of the content
+#### - Propose a change of the content
 [Propose a change related to the INSPIRE registry content](https://github.com/INSPIRE-MIF/helpdesk-registry/issues/new?assignees=&labels=&template=propose-a-change.md&title=) (**reserved only to the appointed [Submitting Organisations](submitting-organisations-list.md)**).
 
-#### Report an issue or ask a question not impacting the content
+#### - Report an issue or ask a question not impacting the content
 
 [Report an issue, or ask a question on the user interface, API…](https://github.com/INSPIRE-MIF/helpdesk-registry/issues/new?assignees=&labels=&template=report-an-issue-inspire-registry.md&title=) of the INSPIRE registry.
 
-#### Report an issue related to the INSPIRE Register Federation
+#### - Report an issue related to the INSPIRE Register Federation
 [Report an issue or ask a question  on the INSPIRE Register Federation](https://github.com/INSPIRE-MIF/helpdesk-registry/issues/new?assignees=&labels=&template=report-an-issue-inspire-register-federation.md&title=)
 
 
-#### Nomination of Submitting Organisation  and  Control Body members
+#### - Nomination of Submitting Organisation  and  Control Body members
 -   Submitting Organisations can be nominated using [this issue template](https://github.com/INSPIRE-MIF/helpdesk-registry/issues/new?assignees=&labels=&template=nominate-submitting-organisation.md&title=); **Note**:  only one organisation can be nominated per country. The representative can be a MIG-T member, or another nominated expert), JRC, EEA and DG ENV. More info available [here](http://inspire.ec.europa.eu/id/document/tor/registry-control-body-and-submittingorganisations/1.0).
 -   Members for the [Control Body](control-body-list.md) can be proposed using [this issue template](https://github.com/INSPIRE-MIF/helpdesk-registry/issues/new?assignees=&labels=&template=nominate-control-body.md&title=). **Note**: Control Body is made of a small group of nominated register experts. More info available [here](http://inspire.ec.europa.eu/id/document/tor/registry-control-body-and-submittingorganisations/1.0).
 
 ### Check current and past issues
 
-Check the currently [open issues page](https://github.com/INSPIRE-MIF/helpdesk-registry/issues).
+Check the currently [open issues page](https://github.com/INSPIRE-MIF/helpdesk-registry/issues) to to follow up a change proposal or a problem. 
 Check past [issues and&  resolutions](https://wayback.archive-it.org/12090/20210104094622/https://ies-svn.jrc.ec.europa.eu/projects/registers-control-body/issues)
