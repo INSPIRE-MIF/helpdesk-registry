@@ -26,7 +26,7 @@ No release is proposed on the end of the year, to avoid undesired interferences 
 
 ## Release Planning & Milestones
 
-As mentioned above, several releases of the Re3gistry software are scheduled each year.
+As mentioned above, several releases of the INSPIRE Registry are scheduled each year.
 
 To inform users in advance about when the solution to each issue will be included in the release of the INSPIRE Registry, each issue and change proposal is assigned to a specific milestone.
 
