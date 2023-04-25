@@ -3,15 +3,14 @@
 The table below lists the members of the Submitting Organisations for the [INSPIRE registry](https://inspire.ec.europa.eu/registry).
 Additional members can be [proposed here](https://github.com/INSPIRE-MIF/helpdesk-registry/issues/new?assignees=&labels=&template=nominate-submitting-organisation.md&title=).
 
-|Country|Organisation|Point of contact|E-mail|
-|--|--|--|--|
+|Country|Organisation|Point of contact|E-mail|Github User|
+|--|--|--|--|--|
 |AT|Umweltbundesamt (Environment Agency Austria) |Christine Brendle|christine.brendle@umweltbundesamt.at|
 |BE|Belgian INSPIRE Coordination Comite|Ouns Kissiyar|ouns.kissiyar@kb.Vlaanderen.be|
 |CY|Department of Lands and Surveys|Mr Andreas Hadjiraftis|ahadjiraftis@dls.moi.gov.cy|
 |CZ|CENIA Czech Environmental Information Agency|Lenka Rejentová|lenka.rejentova@cenia.cz
-|DE|Coordination Office SDI Germany|Andreas von Dömming|contact-eu-registry@bkg.bund.de|
-|DE|Coordination Office SDI Germany|Sebastian Kauk|contact-eu-registry@bkg.bund.de|
-|DK|Agency for Data Supply and Efficiency|Lars Erik Storgaard|laers@sdfe.dk|
+|DE|Federal Agency for Cartography and Geodesy|Jane Heller|contact-eu-registry@bkg.bund.de|jane-heller-bkg|
+|DK|Agency for Data Supply and Infrastructure|Lars Erik Storgaard|laers@sdfi.dk|laers|
 |EE|Estonian Land Board|Mart Randmäe|mart.randmae@maaamet.ee|
 |EL|Ministry for Environment and Energy|Eleni Grigoriou|el.grigoriou@prv.ypeka.gr|
 |ES|National Centre for Geographic Information|Alejandra Sánchez Maganto|asmaganto@fomento.es|
