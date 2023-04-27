@@ -3,7 +3,7 @@
 The table below lists the members of the Submitting Organisations for the [INSPIRE registry](https://inspire.ec.europa.eu/registry).
 Additional members can be [proposed here](https://github.com/INSPIRE-MIF/helpdesk-registry/issues/new?assignees=&labels=&template=nominate-submitting-organisation.md&title=).
 
-|Country|Organisation|Point of contact|E-mail|Github User|
+|Country|Organisation|Point of contact|E-mail|Github UserID|
 |--|--|--|--|--|
 |AT|Umweltbundesamt (Environment Agency Austria) |Christine Brendle|christine.brendle@umweltbundesamt.at|
 |BE|Belgian INSPIRE Coordination Comite|Ouns Kissiyar|ouns.kissiyar@kb.Vlaanderen.be|
@@ -27,7 +27,7 @@ Additional members can be [proposed here](https://github.com/INSPIRE-MIF/helpdes
 |PL|G?ówny Urz?d Geodezji i Kartografii (GUGiK) (Head Office of Geodesy and Cartography)|Micha? Fija?kowski|michal.fijalkowski@codgik.gov.pl|
 |RO|National Agency for Cadastre and Land Registration (ANCPI)|Simona Daniela Bunea|simona.bunea@ancpi.ro|
 |SE|Lantmäteriet|Britt-Marie Johansson|Britt-Marie.Johansson@lm.se|
-|SK|Ministry of Environment of the Slovak republic|Martin Tuchyna|martin.tuchyna@enviro.gov.sk|
+|SK|Ministry of Environment of the Slovak republic|Martin Tuchyna|martin.tuchyna@enviro.gov.sk|MartinTuchyna|
 |SI|SURVEYING AND MAPPING AUTHORITY OF THE REPUBLIC OF SLOVENIA|UROŠ MLADENOVI?|uros.mladenovic@gov.si|
 |EC-JRC|European Commission, Joint Research Centre (JRC)|Michael Lutz|michael.lutz@ec.europa.eu|
 |EC-JRC|European Commission, Joint Research Centre (JRC)|Andrea Perego|andrea.perego@ext.ec.europa.eu|
