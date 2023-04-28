@@ -1,6 +1,6 @@
 ## INSPIRE registry - Submitting Organisations
 
-The table below lists the members of the Submitting Organisations for the [INSPIRE registry](https://inspire.ec.europa.eu/registry).
+The table below lists the members of the Submitting Organisations for the [INSPIRE Registry](https://inspire.ec.europa.eu/registry).
 Additional members can be [proposed here](https://github.com/INSPIRE-MIF/helpdesk-registry/issues/new?assignees=&labels=&template=nominate-submitting-organisation.md&title=).
 
 |Country|Organisation|Point of contact|E-mail|Github UserID|
