@@ -2,7 +2,7 @@
 
 When you provide a change proposal, remember to specify all the required information in order to facilitate the correct evaluation and eventual implementation of the proposed changes.
 
-Please follow the instructions below as closely as possible to give the Control Body all the relevant information to take a decision and to facilitate the update by the register manager.
+Please follow the instructions below as closely as possible to give all the relevant information to evaluate, take a decision and to facilitate the update by the register manager.
 
 ### Description
 
@@ -10,7 +10,8 @@ Here you should describe:
 -   the **URI** of the register/reference code. This field should contain the URI of the item to be updated or the new URI in case of addition proposal. In case the change is related to more than one item, complete this field with the register URI or the collection URI and specify each URI in the body of the proposal. 
     -   Example - [http://inspire.ec.europa.eu/theme/ad](http://inspire.ec.europa.eu/theme/ad) (an item)
     - Example - [http://inspire.ec.europa.eu/media-types/application](http://inspire.ec.europa.eu/media-types/application) (a collection of items)
--   the **rationale**, motivation and/or use case behind the proposal to be addressed, including any relevant information that could help the Control Body to take a decision, and  the
+    
+-   the **rationale**, motivation and/or use case behind the proposal to be addressed, including any relevant information that could help to take a decision.
     
 -   **proposed change(s)**, described as concretely as possible (please specify all the relevant information, including eventual translations, related to your proposal)   
 -   The **type** of change:
