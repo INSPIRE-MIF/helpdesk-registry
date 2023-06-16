@@ -13,13 +13,12 @@ Additional members can be [proposed here](https://github.com/INSPIRE-MIF/helpdes
 |DK|Agency for Data Supply and Infrastructure|Lars Erik Storgaard|laers@sdfi.dk|laers|
 |EE|Estonian Land Board|Mart Randmäe|mart.randmae@maaamet.ee||
 |EL|Ministry for Environment and Energy|Eleni Grigoriou|el.grigoriou@prv.ypeka.gr||
-|ES|National Centre for Geographic Information|Alejandra Sánchez Maganto|asmaganto@fomento.es||
+|ES|National Centre for Geographic Information|Paloma Abad Power|paloma.abad@cnig.es|abadppa0|
 |FI|National Land Survey of Finland|Teijo Kalliomäki|teijo.kalliomaki@nls.fi||
 |FR|Ministère de l'environnement de l'énergie et de la mer|Etienne Taffoureau|e.taffoureau@brgm.fr||
 |HR|State Geodetic Administration|Tanja Rodin|tanja.rodin@dgu.hr||
 |HU|BFKH FTFF (Government Office of the Capital City Budapest Department of Geodesy Remote Sensing and Land Offices)|Otto Tancsik|tancsik.otto@bfkh.gov.hu||
 |IT|AgID (Agenzia per l'Italia Digitale) |Antonio Rotundo|antonio.rotundo@agid.gov.it|AntoRot|
-|IT|AgID (Agenzia per l'Italia Digitale) |Gabriele Ciasullo|ciasullo@agid.gov.it||
 |LV|Latvian Geospatial Information Agency|Valdis Berzins|valdis.berzins@lgia.gov.lv||
 |MT|MALTA INFORMATION TECHNOLOGY AGENCY (MITA)|Marica Xuereb|marica.xuereb@gov.mt||
 |NL|Geonovum|Ine de Visser|i.devisser@geonovum.nl|idevisser|
