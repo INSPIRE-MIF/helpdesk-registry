@@ -30,38 +30,38 @@ As mentioned above, several releases of the INSPIRE Registry are scheduled each 
 The releases for the INSPIRE Registry are aligned with the releases of the rest of INSPIRE artefacts - See [INSPIRE Calendar](https://inspire.ec.europa.eu/calendar).
 
 The schedule of releases of the INSPIRE Registry adhere the following general pattern: 
-- First annual release 202x.01 (January).
-- Second (and last) annual release 202x.02 (July).
+- First annual release 202x.1 (January).
+- Second (and last) annual release 202x.2 (July).
 
 **Release plan for 2023 and 2024**
 For illustration, the INSPIRE Registry releases for the years 2023 and 2024 are described below:
 
 <u>2023</u>:
-- First annual release 2023.01 (See NOTE 1) - 31/01/2023
-- Second (and last) annual release 2023.02 - 31/07/2023
+- First annual release 2023.1 (See NOTE 1) - 31/01/2023
+- Second (and last) annual release 2023.2 - 31/07/2023
 
 NOTE 1: This release did not take place, since the Control Body was only reactivated in the 74 MIG-T Meeting (28.04.2023).
 
 <u>2024</u>:
-- First annual release 2024.01 - 31/01/2024
-- Second (and last) annual release 2024.02 - 31/07/2024
+- First annual release 2024.1 - 31/01/2024
+- Second (and last) annual release 2024.2 - 31/07/2024
   
 To guide users in advance about when the solution to an specific issue will be included in one of the releases of the INSPIRE Registry, each issue and change proposal is assigned to a specific milestone.
 
-The Milestones adhere the following general pattern: 
-- Milestone 202x.01: Issues collected between 01/08 and 31/11 of the year preceding milestone 202x.01, will be (in principle) considered in such release. 
-- Milestone 202x.02: Issues collected between 01/02 and 31/05 of the year of milestone 202x.02, will be (in principle) considered in such release.
+The Milestones adhere to the following general pattern: 
+- Milestone 202x.1: Issues collected between 01/08 and 31/11 of the year preceding milestone 202x.1, will be (in principle) considered in such release. 
+- Milestone 202x.2: Issues collected between 01/02 and 31/05 of the year of milestone 202x.2, will be (in principle) considered in such release.
 
 **Milestones for 2023 and 2024**
 For illustration, the milestones for the years 2023 and 2024 are described below:
 
-- Milestone 2023.01 (See NOTE 2) 
-- Milestone 2023.02: Issues collected until 31/05 of the year 2023, to be delivered in release 2023.02
+- Milestone 2023.1 (See NOTE 2) 
+- Milestone 2023.2: Issues collected until 31/05 of the year 2023, to be delivered in release 2023.2
   
-- Milestone 2024.01: Issues collected between 01/08 and 31/11 of the year 2023, to be delivered in release 2024.01
-- Milestone 2024.02: Issues collected between 01/02 and 31/05 of the year 2024, to be delivered in release 2024.02
+- Milestone 2024.1: Issues collected between 01/08 and 31/11 of the year 2023, to be delivered in release 2024.1
+- Milestone 2024.2: Issues collected between 01/02 and 31/05 of the year 2024, to be delivered in release 2024.2
 
-NOTE 2: This milestone did not exist, since release 2023.01 did not take place (as explained in Note 1 above).
+NOTE 2: This milestone did not exist, since release 2023.1 did not take place (as explained in Note 1 above).
 
 Milestones are listed on [this page](https://github.com/INSPIRE-MIF/helpdesk-registry/milestones). Once a new version of the INSPIRE Registry is released, the corresponding milestone is closed and moved to the list of closed milestones.
 
@@ -71,9 +71,9 @@ The milestone ends about two months before the meeting of the MIWP Sub-Group 2.3
 
 Each release of the INSPIRE Registry is fully managed and made available to the INSPIRE community through the following set of GitHub artifacts:
 
-- A GitHub milestone, named v202x.0y and published on the Milestones section of the community repository; the milestone lists the issues whose solutions are included in the corresponding v202x.0y release.
+- A GitHub milestone, named v202x.y and published on the Milestones section of the community repository; the milestone lists the issues whose solutions are included in the corresponding v202x.y release.
 
-- A GitHub release, named v202x.0y and published on the Release section of the community repository. The release notes include:
+- A GitHub release, named v202x.y and published on the Release section of the community repository. The release notes include:
 
   - a list of aproved change proposals
   - a list of fixed issues
