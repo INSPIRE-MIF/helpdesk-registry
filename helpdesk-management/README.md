@@ -40,9 +40,11 @@ flowchart TD
     rhombusChangesInDB -- YES --> labelDiscussionProposal
     labelDiscussionProposal --> rhombusControlBody 
        
-    rhombusControlBody -- YES --> labelUnderScrut
-    labelInputRequired --> labelUnderScrut
-    labelUnderScrut --> implementChanges
+    %% rhombusControlBody -- YES --> labelUnderScrut
+    rhombusControlBody -- YES --> labelGovernanceProcess
+    %% labelInputRequired --> labelUnderScrut
+    %% labelUnderScrut --> implementChanges
+    labelGovernanceProcess --> giveFeedBack
 
     rhombusControlBody -- NO --> resolveIssue
     resolveIssue --> labelSolved
@@ -107,6 +109,10 @@ flowchart TD
     %% SET LABEL UNDER SCRUTINY (SUBMITTED-VALID) [NODE]
     labelUnderScrut("Proposal submitted to Control Body \n Set label 'under scrutiny'")
     style labelUnderScrut stroke-width:4px, stroke: #fbca04
+
+    %% SET LABEL UNDER SCRUTINY (SUBMITTED-VALID) [NODE]
+    labelGovernanceProcess("Governance process")
+    style labelGovernanceProcess stroke-width:4px, stroke: #fbca04
 
     %% IMPLEMENT THE CHANGES / ACCEPT... [NODE]
     implementChanges("Implement the changes / accept \n actions by control body. \n Give feedback in the issue \n about the status of the process")
