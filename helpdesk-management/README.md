@@ -102,7 +102,7 @@ flowchart TD
     style labelDiscussionProposal stroke-width:4px, stroke: #c2e0c6
 
     %% CONTROL BODY APPROVAL IS NEEDED ? [RHOMBUS]
-    rhombusControlBody{"CONTROL BODY \n approval is needed?"}
+    rhombusControlBody{"MIWP Sub-group \n approval is needed?"}
 
     %% SET LABEL UNDER SCRUTINY (SUBMITTED-VALID) [NODE]
     labelUnderScrut("Proposal submitted to Control Body \n Set label 'under scrutiny'")
