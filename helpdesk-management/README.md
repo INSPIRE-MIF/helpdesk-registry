@@ -107,11 +107,11 @@ flowchart TD
     rhombusControlBody{"MIWP Sub-group \n approval is needed?"}
 
     %% SET LABEL UNDER SCRUTINY (SUBMITTED-VALID) [NODE]
-    labelUnderScrut("Proposal submitted to Control Body \n Set label 'under scrutiny'")
-    style labelUnderScrut stroke-width:4px, stroke: #fbca04
+    %% labelUnderScrut("Proposal submitted to Control Body \n Set label 'under scrutiny'")
+    %% style labelUnderScrut stroke-width:4px, stroke: #fbca04
 
     %% SET LABEL UNDER SCRUTINY (SUBMITTED-VALID) [NODE]
-    labelGovernanceProcess("Governance process")
+    labelGovernanceProcess("GOVERNDANCE PROCESS")
     style labelGovernanceProcess stroke-width:4px, stroke: #fbca04
 
     %% IMPLEMENT THE CHANGES / ACCEPT... [NODE]
