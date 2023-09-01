@@ -14,16 +14,11 @@ To be able to know the status of each issue reported in the helpdesk (from the i
 
 - **_under analysis_**: This label is assigned after the issue has been opened, and indicates that the INSPIRE Registry Team is performing an initial analysis to figure out what the nature of the problem is, and how to address it.
 - **_further info required_**: In case the issue requires further information from the user, the INSPIRE Registry Team asks the user to provide it in the issue thread.
-- **_change proposal_**: This label is assigned to the issue in case the initial analysis reveals that it corresponds to a change proposal regarded to the content of the INSPIRE Registry. After having classified the issue with this label, a deeper analysis is started to evaluate whether it is a proposal deriving from a Submitting Organization or not, and its expected impact on the INSPIRE Registry.
-- **_miscellaneous proposal_**: In case the initial analysis reveals that the issue does NOT correspond to a change proposal regarded to the content of the INSPIRE Registry, but to another type of proposal, this label is assigned to the issue. As illustration, the proposal might be regarded to an problem, a question or a proposal related to the the INSPIRE Registry tool/application. In these cases the INSPIRE Registry team shall analyse the nature of the issue, as well as formulate/develop a proper answer and/or solution to the issue reported.
+- **_change proposal_**: This label is assigned to the issue in case the initial analysis reveals that it corresponds to a change proposal regarding the content of the INSPIRE Registry. After having classified the issue with this label, a deeper analysis is started to evaluate whether it is a proposal deriving from a Submitting Organization or not, and its expected impact on the INSPIRE Registry.
+- **_miscellaneous proposal_**: In case the initial analysis reveals that the issue does NOT correspond to a change proposal regarding the content of the INSPIRE Registry, but to another type of proposal, this label is assigned to the issue. As an illustration, the proposal might be regarded to a problem, a question or a proposal related to the the INSPIRE Registry tool/application. In these cases, the INSPIRE Registry team shall analyse the nature of the issue, as well as formulate/develop a proper answer and/or solution to the issue reported.
 - **_under development_**: In the previous case, when an ad-hoc solution needs to be developed, this label is assigned to the issue to indicate that the INSPIRE Registry team is developing a solution for the problem reported.
 - **_accepted fix_**: If the change proposal is a correction directly implementable and does not require the Control Body's approval, for example in case of obvious typos, the INSPIRE Registry team will proceed to implement the proposal and will label the issue as an accepted correction.
-- **_under scrutiny_**: This label is assigned to the issue to indicate that the change proposal has been submitted for the evaluation of the Control Body using the established formal procedure. Throughout this process, the INSPIRE Registry team provides feedback to the user on the status of the proposal. Once the Control Body has ruled a final decision on it, the issue is labelled using one of these 4 labels:
-  - **_input required_**: The control body is requesting additional information to the change requester.
-  - **_approved_**: The change request has been accepted and approved by the Control Body.
-  - **_approved with changes_**: The change request has been accepted and approved  by the Control Body, with some changes with respect the original porposal.
-  - **_rejected_**: The change request has NOT been accepted by the Control Body.
-- **_impact on TG_**: Finally, when the change approved by the Control body affects the any technical guidelines, the issue is labelled in order to properly identify and address it within the technical-guidelines helpdesk.
+- **_impact on TG_**: Finally, when the change affects any technical guidelines, the issue is labelled in order to properly identify and address it within the technical guidelines helpdesk.
 
 The diagram below shows the full helpdesk management cycle for each issue, from the initial stage when it is opened to the final stage when it is closed. It additionally includes and identifies the actions of the INSPIRE Registry team.
 
@@ -111,8 +106,8 @@ flowchart TD
     %% style labelUnderScrut stroke-width:4px, stroke: #fbca04
 
     %% SET LABEL UNDER SCRUTINY (SUBMITTED-VALID) [NODE]
-    labelGovernanceProcess("GOVERNDANCE PROCESS")
-    style labelGovernanceProcess stroke-width:4px, stroke: #fbca04
+    labelGovernanceProcess("**GOVERNDANCE PROCESS**")
+    style labelGovernanceProcess stroke-width:4px, stroke: #fbca04, stroke-dasharray: 5 5
 
     %% IMPLEMENT THE CHANGES / ACCEPT... [NODE]
     %% implementChanges("Implement the changes / accept \n actions by control body. \n Give feedback in the issue \n about the status of the process")
