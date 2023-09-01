@@ -106,8 +106,8 @@ flowchart TD
     %% style labelUnderScrut stroke-width:4px, stroke: #fbca04
 
     %% SET LABEL UNDER SCRUTINY (SUBMITTED-VALID) [NODE]
-    labelGovernanceProcess("**GOVERNDANCE PROCESS**")
-    style labelGovernanceProcess stroke-width:4px, stroke: #fbca04, stroke-dasharray: 5 5
+    labelGovernanceProcess("GOVERNDANCE PROCESS")
+    style labelGovernanceProcess stroke-width:4px, stroke: #fbca04, stroke-dasharray: 5 5, fill:#f96
 
     %% IMPLEMENT THE CHANGES / ACCEPT... [NODE]
     %% implementChanges("Implement the changes / accept \n actions by control body. \n Give feedback in the issue \n about the status of the process")
