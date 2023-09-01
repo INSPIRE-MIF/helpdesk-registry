@@ -50,18 +50,18 @@ flowchart TD
     resolveIssue --> labelSolved
     labelSolved --> giveFeedBack
     
-    implementChanges --> rhombusChangeAccepted
-    rhombusChangeAccepted -- YES --> labelChangeApproved
-    rhombusChangeAccepted -- YES WITH CHANGES --> labelChangeApprovedWithChanges
-    rhombusChangeAccepted -- NO --> NeedMoreInfo
+    %% implementChanges --> rhombusChangeAccepted
+    %% rhombusChangeAccepted -- YES --> labelChangeApproved
+    %% rhombusChangeAccepted -- YES WITH CHANGES --> labelChangeApprovedWithChanges
+    %% rhombusChangeAccepted -- NO --> NeedMoreInfo
 
-    NeedMoreInfo -- NO --> labelChangeDeclined
+    %% NeedMoreInfo -- NO --> labelChangeDeclined
 
-    NeedMoreInfo -- YES ----> labelInputRequired
+    %% NeedMoreInfo -- YES ----> labelInputRequired
 
-    labelChangeDeclined --> giveFeedBack
-    labelChangeApproved --> rhombusRequiresChange
-    labelChangeApprovedWithChanges --> rhombusRequiresChange
+    %% labelChangeDeclined --> giveFeedBack
+    %% labelChangeApproved --> rhombusRequiresChange
+    %% labelChangeApprovedWithChanges --> rhombusRequiresChange
     labelDiscussionDevelopment --> rhombusRequiresChange
 
     rhombusRequiresChange -- YES --> labelRequiresChanges
@@ -115,29 +115,29 @@ flowchart TD
     style labelGovernanceProcess stroke-width:4px, stroke: #fbca04
 
     %% IMPLEMENT THE CHANGES / ACCEPT... [NODE]
-    implementChanges("Implement the changes / accept \n actions by control body. \n Give feedback in the issue \n about the status of the process")
+    %% implementChanges("Implement the changes / accept \n actions by control body. \n Give feedback in the issue \n about the status of the process")
 
     %% THE CHANGE IS ACCEPTED ? [RHOMBUS]
-    rhombusChangeAccepted{"The change \n is accepted?"}
+    %% rhombusChangeAccepted{"The change \n is accepted?"}
 
     %% SET LABEL INPUT REQUIRED [NODE]
-    labelInputRequired("Set label 'input required'")
-    style labelInputRequired stroke-width:4px, stroke: #f9d0c4
+    %% labelInputRequired("Set label 'input required'")
+    %% style labelInputRequired stroke-width:4px, stroke: #f9d0c4
 
     %% SET LABEL CHANGE APPROVED [NODE]
-    labelChangeApproved("Proposal is accepted \n Implement change \n Set label 'approved'")
-    style labelChangeApproved stroke-width:4px, stroke: #0e8a16
+    %% labelChangeApproved("Proposal is accepted \n Implement change \n Set label 'approved'")
+    %% style labelChangeApproved stroke-width:4px, stroke: #0e8a16
 
     %% SET LABEL CHANGE APPROVED WITH CHANGES [NODE]
-    labelChangeApprovedWithChanges("Proposal is accepted \n Implement change \n Set label 'approved with changes'")
-    style labelChangeApprovedWithChanges stroke-width:4px, stroke: #0e8a16
+    %% labelChangeApprovedWithChanges("Proposal is accepted \n Implement change \n Set label 'approved with changes'")
+    %% style labelChangeApprovedWithChanges stroke-width:4px, stroke: #0e8a16
 
     %% REQUIRES CHANGE IN THE TG? [RHOMBUS]
     rhombusRequiresChange{"Requires change \n in the TG?"}
 
     %% SET LABEL CHANGE DECLINED
-    labelChangeDeclined("Proposal is NOT accepted \n Set label 'rejected'")
-    style labelChangeDeclined stroke-width:4px, stroke: #b60205
+    %% labelChangeDeclined("Proposal is NOT accepted \n Set label 'rejected'")
+    %% style labelChangeDeclined stroke-width:4px, stroke: #b60205
 
     %% SET LABEL REQUIRES CHANGES IN TG
     labelRequiresChanges("Requires changes in TG \n Set label 'impact on TG'")
@@ -160,7 +160,7 @@ flowchart TD
     transferIssue("Transfer the issue to the correct helpdesk repository")
 
     %% IS MORE INFO NEEDED?
-    NeedMoreInfo{"Is more info needed?"}
+    %% NeedMoreInfo{"Is more info needed?"}
 
     %% ISSUE RELATED TO CHANGES IN A ITEM [RHOMBUS]
     rhombusChangesInDB{"Issue related to\nchanges in a item"}
