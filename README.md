@@ -4,7 +4,7 @@ This space is meant to discuss and propose changes to the content and the servic
 Please follow our [Code of Conduct](https://github.com/INSPIRE-MIF/helpdesk/blob/main/code-of-conduct.md) anytime when you interact with the INSPIRE community in this space.
 Please familiarise yourself with the [governance process](https://github.com/INSPIRE-MIF/helpdesk-registry/blob/main/helpdesk-management/governance_process.md) before opening new issues.
 
-You can check the the [release planning strategy](https://github.com/INSPIRE-MIF/helpdesk-registry/tree/main/release%20strategy) for the plan of future releases of the INSPIRE Registry.
+You can check the [release planning strategy](https://github.com/INSPIRE-MIF/helpdesk-registry/tree/main/release%20strategy) for the plan of future releases of the INSPIRE Registry.
 
 ### Before posting an issue
 
