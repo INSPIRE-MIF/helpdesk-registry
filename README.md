@@ -41,6 +41,9 @@ For more information on the change proposal process and duties of Submitting Org
 Check the currently [open issues page](https://github.com/INSPIRE-MIF/helpdesk-registry/issues) to to follow up a change proposal or a problem. 
 Check past [issues and&  resolutions](https://wayback.archive-it.org/12090/20210104094622/https://ies-svn.jrc.ec.europa.eu/projects/registers-control-body/issues)
 
+### Get started with the Re3gistry and the INSPIRE Registry
+Access the [Re3gistry and INSPIRE Registry Starting Kit](https://github.com/INSPIRE-MIF/helpdesk-registry/blob/main/training-material/2024-05-29-JRC-Training/README.md)
+
 ### Have your say!
 
 #### INSPIRE Registry survey
