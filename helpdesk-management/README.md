@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The establishment of proper communication with the INSPIRE Registry community is a key asset for the operation, maintenance and update of the INSPIRE Registry. The [helpdesk of the INSPIRE Registry](https://github.com/INSPIRE-MIF/helpdesk-registry/issues) is the core of the communication strategy since it is the platform where users can report change proposals, nominate a Control body member or a Submission organisation, issues, questions or new features on the Registry.  The objective of this document is to illustrate the systematic workflow adopted by the INSPIRE Registry team to organize, address and manage the issues reported by users in the Registry helpdesk.
+The establishment of proper communication with the INSPIRE Registry community is a key asset for the operation, maintenance and update of the INSPIRE Registry. The [helpdesk of the INSPIRE Registry](https://github.com/INSPIRE-MIF/helpdesk-registry/issues) is the core of the communication strategy since it is the platform where users can report change proposals, issues, questions or new features on the Registry, or nominate a member of a Submitting organisation, issues, questions or new features on the Registry.  The objective of this document is to illustrate the systematic workflow adopted by the INSPIRE Registry team to organize, address and manage the issues reported by users in the Registry helpdesk.
 
 ## Helpdesk management workflow
 
@@ -15,9 +15,9 @@ To be able to know the status of each issue reported in the helpdesk (from the i
 - **_under analysis_**: This label is assigned after the issue has been opened, and indicates that the INSPIRE Registry Team is performing an initial analysis to figure out what the nature of the problem is, and how to address it.
 - **_further info required_**: In case the issue requires further information from the user, the INSPIRE Registry Team asks the user to provide it in the issue thread.
 - **_change proposal_**: This label is assigned to the issue in case the initial analysis reveals that it corresponds to a change proposal regarding the content of the INSPIRE Registry. After having classified the issue with this label, a deeper analysis is started to evaluate whether it is a proposal deriving from a Submitting Organization or not, and its expected impact on the INSPIRE Registry.
-- **_miscellaneous proposal_**: In case the initial analysis reveals that the issue does NOT correspond to a change proposal regarding the content of the INSPIRE Registry, but to another type of proposal, this label is assigned to the issue. As an illustration, the proposal might be regarded to a problem, a question or a proposal related to the the INSPIRE Registry tool/application. In these cases, the INSPIRE Registry team shall analyse the nature of the issue, as well as formulate/develop a proper answer and/or solution to the issue reported.
+- **_miscellaneous proposal_**: In case the initial analysis reveals that the issue does NOT correspond to a change proposal regarding the content of the INSPIRE Registry, but to another type of proposal, this label is assigned to the issue. As an illustration, the proposal might be regarded as a problem, a question or a proposal related to the the INSPIRE Registry tool/application. In these cases, the INSPIRE Registry team shall analyse the nature of the issue, as well as formulate/develop a proper answer and/or solution to the issue reported.
 - **_under development_**: In the previous case, when an ad-hoc solution needs to be developed, this label is assigned to the issue to indicate that the INSPIRE Registry team is developing a solution for the problem reported.
-- **_accepted fix_**: If the change proposal is a correction directly implementable and does not require the Control Body's approval, for example in case of obvious typos, the INSPIRE Registry team will proceed to implement the proposal and will label the issue as an accepted correction.
+- **_endorsed_**: If the change proposal is a correction directly implementable and does not require the MIWP Sub-group approval, for example, in case of obvious typos, the INSPIRE Registry team will proceed to implement the proposal and will label the issue as an accepted correction.
 - **_impact on TG_**: Finally, when the change affects any technical guidelines, the issue is labelled in order to properly identify and address it within the technical guidelines helpdesk.
 
 The diagram below shows the full helpdesk management cycle for each issue, from the initial stage when it is opened to the final stage when it is closed. It additionally includes and identifies the actions of the INSPIRE Registry team.
@@ -148,7 +148,7 @@ flowchart TD
     resolveIssue("Implement change")
 
     %% SET LABEL SOLVED
-    labelSolved("Fix is accepted \n Set label 'ACCEPTED FIX'")
+    labelSolved("Fix is accepted \n Set label 'endorsed'")
     style labelSolved stroke-width:4px, stroke: #8ef984
 
     %% TRANSFER THE ISSUE TO THE CORRECT REPOSITORY
