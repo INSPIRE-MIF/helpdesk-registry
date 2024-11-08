@@ -28,9 +28,6 @@ For more information on the change proposal process and duties of Submitting Org
 
 [Report an issue, or ask a question on the user interface, API…](https://github.com/INSPIRE-MIF/helpdesk-registry/issues/new?assignees=&labels=&template=report-an-issue-inspire-registry.md&title=) of the INSPIRE registry.
 
-#### - Report an issue related to the INSPIRE Register Federation
-[Report an issue or ask a question  on the INSPIRE Register Federation](https://github.com/INSPIRE-MIF/helpdesk-registry/issues/new?assignees=&labels=&template=report-an-issue-inspire-register-federation.md&title=)
-
 
 #### - Nomination of Submitting Organisation
 -   Submitting Organisations can be nominated using [this issue template](https://github.com/INSPIRE-MIF/helpdesk-registry/issues/new?assignees=&labels=&template=nominate-submitting-organisation.md&title=); **Note**:  only one organisation can be nominated per country. The representative can be a MIG-T member, or another nominated expert), JRC, EEA and DG ENV. More info available [here](http://inspire.ec.europa.eu/id/document/tor/registry-control-body-and-submittingorganisations/1.0).
