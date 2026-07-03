@@ -1,15 +1,12 @@
 ## INSPIRE Registry helpdesk
 
-The INSPIRE Registry instance based on the Re3gistry open source software was discontinued on 1 July 2026, as duly announced in [this dicussion thread](https://github.com/INSPIRE-MIF/helpdesk-registry/discussions/123).
+The INSPIRE Registry instance based on the [Re3gistry](https://github.com/ec-jrc/re3gistry/) open source software was discontinued on 1 July 2026 (see the related [announcement](https://github.com/INSPIRE-MIF/helpdesk-registry/discussions/123)).
 
-Currently, the content of the registries is migrated to [EU Vocabularies](https://op.europa.eu/en/web/eu-vocabularies), operated by the [Publications Office of the European Union](https://op.europa.eu/), preserving the URIs in order not to break existing implementations. 
+Currently, the content of the INSPIRE registries is available in [EU Vocabularies](https://op.europa.eu/en/web/eu-vocabularies), a tool operated by the [Publications Office of the European Union](https://op.europa.eu/). All URIs are preserved in order not to break existing implementation. 
 
-Please, consider that its human user interface is still transitional (based on [ShowVoc](https://op.europa.eu/en/web/eu-vocabularies/showvoc)), and will be fully integrated in [EU Vocabularies](https://op.europa.eu/en/web/eu-vocabularies) by September 2026.
-Contact [OP EU VOCABULARIES](OP-EU-VOCABULARIES@publications.europa.eu) for any questions you may have on this regard.
+Please, consider that its human user interface is still transitional (based on [ShowVoc](https://op.europa.eu/en/web/eu-vocabularies/showvoc)), and will be fully integrated in [EU Vocabularies](https://op.europa.eu/en/web/eu-vocabularies) by September 2026. Please contact [OP EU VOCABULARIES](mailto:OP-EU-VOCABULARIES@publications.europa.eu) for any questions you may have on this regard.
 
-This space is still meant to discuss and propose changes to the content aof the [INSPIRE registry](https://inspire.ec.europa.eu/registry).
-Please follow our [Code of Conduct](https://github.com/INSPIRE-MIF/helpdesk/blob/main/code-of-conduct.md) anytime when you interact with the INSPIRE community in this space.
-Please familiarise yourself with the [governance process](https://github.com/INSPIRE-MIF/helpdesk-registry/blob/main/helpdesk-management/governance_process.md) before opening new issues.
+This space is to be used to discuss and propose changes to the content of the [INSPIRE registry](https://inspire.ec.europa.eu/registry). Please follow our [Code of Conduct](https://github.com/INSPIRE-MIF/helpdesk/blob/main/code-of-conduct.md) anytime when you interact with the INSPIRE community in this space. Also, please familiarise yourself with the [governance process](https://github.com/INSPIRE-MIF/helpdesk-registry/blob/main/helpdesk-management/governance_process.md) before opening new issues.
 
 <!-- This space is meant to discuss and propose changes to the content and the service of the [INSPIRE registry](https://inspire.ec.europa.eu/registry).
 Please follow our [Code of Conduct](https://github.com/INSPIRE-MIF/helpdesk/blob/main/code-of-conduct.md) anytime when you interact with the INSPIRE community in this space.
@@ -21,16 +18,16 @@ You can check the [release planning strategy](https://github.com/INSPIRE-MIF/hel
 ### Before posting an issue
 
 #### Out of scope issues
-- Issues on the service of the new [INSPIRE registry]([https://inspire.ec.europa.eu/registry](https://op.europa.eu/en/web/eu-vocabularies/inspire)) based on [EU Vocabularies](https://op.europa.eu/en/web/eu-vocabularies) please contact: [OP EU VOCABULARIES](OP-EU-VOCABULARIES@publications.europa.eu).
-- Issues about the open source Re3gistry software -  powering the INSPIRE registry  - should be posted in the  [dedicated helpdesk](https://github.com/ec-jrc/re3gistry/issues).  
-- Generic issues with the implementation of INSPIRE should be posted in the [dedicated helpdesk](https://github.com/INSPIRE-MIF/helpdesk).
+- For issues on the service/operation of the new [INSPIRE registry]([https://inspire.ec.europa.eu/registry](https://op.europa.eu/en/web/eu-vocabularies/inspire)) based on [EU Vocabularies](https://op.europa.eu/en/web/eu-vocabularies), please contact [OP EU VOCABULARIES](mailto:OP-EU-VOCABULARIES@publications.europa.eu).
+- Issues about the open source Re3gistry software - powering the former version of the INSPIRE registry - should be posted in the [dedicated helpdesk](https://github.com/ec-jrc/re3gistry/issues).
+- Generic issues with the implementation of INSPIRE should be posted in the [generic INSPIRE helpdesk](https://github.com/INSPIRE-MIF/helpdesk).
 
 **If you**:
-- Are  not a Submitting Organisation and you would like to propose a change, please approach  the  recognised  [Submitting Organisation from your country](submitting-organisations-list.md)  
+- Are  not a Submitting Organisation and you would like to propose a change, please approach the recognised [Submitting Organisation from your country](submitting-organisations-list.md)  
 - Represent a Submitting Organisation, please take a look at the [Guidelines for change proposals](change-proposal-guidelines.md)
 - Want to update or submit a nomination for either a Submitting Organisation, or Control Body, please use the specific issue template, listed below.
 
-For more information on the change proposal process and duties of Submitting Organisations  and the  Control  Body, please refer to the [INSPIRE registry – Terms of Reference for the Control Body and Submitting Organisations](https://github.com/INSPIRE-MIF/helpdesk-registry/blob/main/registry-control-body-and-submitting-organisations.md) document.
+For more information on the change proposal process and duties of Submitting Organisations and the Control Body, please refer to the [INSPIRE registry – Terms of Reference for the Control Body and Submitting Organisations](https://github.com/INSPIRE-MIF/helpdesk-registry/blob/main/registry-control-body-and-submitting-organisations.md) document.
 
 ### How to submit an issue
 
